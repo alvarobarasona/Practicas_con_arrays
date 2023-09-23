@@ -55,27 +55,3 @@ function example() {
     document.getElementById("select-options").value = selectOption;
     insertElementOnArray();
 }
-
-/*
-function getArrayOfRandomNumber() {
-    return Array.from({length: 5}, ()=> Math.floor(Math.random() * 100) + 1);
-}
-
-function getRandomNumber() {
-    let randomNumber = Math.floor(Math.random() * 100) + 1;
-    return randomNumber;
-}
-
-function loadExample() {
-    let randomArray = getArrayOfRandomNumber();
-    document.getElementById("inputValue").value = randomArray;
-    generateOptions();
-    let arrayDiference = 1;
-    let insertOption = 0;
-    let insertPosition = document.getElementById("select-options").value;
-    let randomNumber = getRandomNumber();
-    document.getElementById("inputNumber").value = randomNumber;
-    randomArray.splice(insertPosition - arrayDiference, insertOption, Number(inputNumber));
-    document.getElementById("finalArray").innerHTML = arrayOfValues;
-}
-*/
