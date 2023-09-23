@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 4</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <p>Introduce los primeros enteros separados por comas:</p>
+        <div>
+            <input type="text" id="inputValue">
+            <button onclick="example()">Ejemplo</button>
+        </div>
+        <br>
+        <div>
+            <span>Valor: </span>
+            <input type="text" id="inputNumber" onclick="getArrayInputValue()">
+            <span>Posición del Array:</span>
+            <select id="select-options"></select>
+            <button onclick="insertElementOnArray()">Insertar</button>
+        </div>
+        <div>
+            <p id="finalArray"></p>
+        </div>
+    </body>
+</html>
