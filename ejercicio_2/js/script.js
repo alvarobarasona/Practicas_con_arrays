@@ -1,5 +1,11 @@
 function getArrayOfRandomNumber() {
-    return Array.from({length: 5}, ()=> Math.floor(Math.random() * 10) + 1);
+    let inputNumber = [];
+    let arrayDimension = 5;
+    for(let i = 0; i < arrayDimension; i++) {
+        inputNumber.push(Math.floor(Math.random() * 10) + 1);
+    }
+    return inputNumber;
+    //return Array.from({length: 5}, ()=> Math.floor(Math.random() * 10) + 1);
 }
 
 function getFirstField() {

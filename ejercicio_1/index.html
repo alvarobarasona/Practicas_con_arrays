@@ -3,38 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/script.js"></script>
         <title>Ejercicio 1</title>
-        <script src="script.js"></script>
     </head>
     <body>
+        <p>Introduce los enteros separados por comas</p>
         <div>
-            <p>Introduce los enteros separados por comas</p>
-        </div>
-        <div>
-            <input type="text" id="inputNumberValue">
-            <button onclick="loadExample()">Cargar ejemplo</button>
+            <input type="text" id="inputValue">
+            <button id="example" onclick="example()">Cargar Ejemplo</button>
         </div>
         <br>
-        <div>
-            <button onclick="calculate()">calcular</button>
-        </div>
+        <button onclick="calculate()">calcular</button>
+        <br>
         <br>
         <div>
             <div>
-                <span>La suma es: </span>
+                <span>La suma es:</span>
                 <span id="addition"></span>
             </div>
             <div>
-                <span>La media es: </span>
+                <span>La media es:</span>
                 <span id="half"></span>
             </div>
             <div>
-                <span>El mayor es: </span>
-                <span id="elderly"></span>
+                <span>El mayor es:</span>
+                <span id="greater"></span>
             </div>
             <div>
-                <span>El menor es: </span>
-                <span id="minor"></span>
+                <span>El menor es:</span>
+                <span id="lesser"></span>
             </div>
         </div>
     </body>
